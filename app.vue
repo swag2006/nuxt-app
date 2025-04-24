@@ -1,11 +1,6 @@
-
 <template>
-  <div>
-    <!-- <NuxtRouteAnnouncer />
-    <NuxtWelcome /> -->
-    HELLO WORLD!!
-    <Checkbox v-model="checked" binary />
-
-
-  </div>
+  <NuxtLayout>
+    Test
+    <NuxtPage></NuxtPage>
+  </NuxtLayout>
 </template>
